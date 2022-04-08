@@ -1,18 +1,3 @@
-# 3 sabores -
-# café expresso(espresso) -  latte                - caputtino
-#   50 ml water                   200ml watter        250 ml watter
-#   18g coffee                    24g coffee          24g coffee
-#                                 150ml milk          100ml milk
-
-# maquina cafe - max 300ml water / 200 milk / 100g coffee
-
-# precisa de moeda
-# penny 1 cent
-# dime 10 cents
-# nickel 5 cents
-# quarter 25cents
-
-
 MENU = {
     "espresso": {
         "ingredients": {
@@ -111,14 +96,3 @@ def machine_options(c_resources, c_menu):
 
 
 machine_options(resources, MENU)
-
-# Print report - mostrar resources - water  milk coffee money
-
-
-## perguntar o que ele quer
-# perguntar quantas moedas de cada uma#
-# verificar se é suficiente as moedas e recursos
-# processar moedas
-# se for insuficiente, informar e dar refound
-# se for suficiente, calcular e devolver o troco
-# fazer café
